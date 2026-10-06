@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://upload.inf.zone/schema/problem.json
+
+title: Vererbung
+bonus_checks: [correct_size]
+slug: !check50
+files: !check50

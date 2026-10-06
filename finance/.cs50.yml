@@ -1,0 +1,6 @@
+check50:
+  files:
+    - !exclude "*"
+    - !require app.py
+    - !require helpers.py
+    - !include "templates/*.html"

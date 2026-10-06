@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://upload.inf.zone/schema/problem.json
+
+title: Scrabble
+bonus_checks: [test4]
+slug: !check50
+files: !check50

@@ -1,0 +1,5 @@
+# CS50's mario/less, the less comfortable version.
+check50:
+  files:
+    - !exclude "*"
+    - !require mario.c

@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://upload.inf.zone/schema/problem.json
+
+title: Filter
+bonus_checks: [grayscale_single_pixel]
+slug: !check50
+files: !check50

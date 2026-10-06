@@ -1,0 +1,5 @@
+# CS50's filter/less, the less comfortable version.
+check50:
+  files:
+    - !exclude "*"
+    - !require helpers.c

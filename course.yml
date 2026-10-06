@@ -1,0 +1,156 @@
+# yaml-language-server: $schema=https://upload.inf.zone/schema/course.json
+
+semester: WS 2026/27
+timezone: Europe/Berlin
+
+# The mug: whoever hands in every C exercise (1 to 9) gets one.
+tracks:
+  - key: 9ects
+    label: 9 ECTS
+    exercises:
+      - number: 1
+        mug: true
+      - number: 2
+        mug: true
+      - number: 3
+        mug: true
+      - number: 4
+        mug: true
+      - number: 5
+        mug: true
+      - number: 6
+        mug: true
+      - number: 7
+        mug: true
+      - number: 8
+        mug: true
+      - number: 9
+        mug: true
+      - 10
+      - 11
+      - 12
+      - 13
+  # The C exercises only.
+  - key: 6ects
+    label: 6 ECTS
+    exercises:
+      - number: 1
+        mug: true
+      - number: 2
+        mug: true
+      - number: 3
+        mug: true
+      - number: 4
+        mug: true
+      - number: 5
+        mug: true
+      - number: 6
+        mug: true
+      - number: 7
+        mug: true
+      - number: 8
+        mug: true
+      - number: 9
+        mug: true
+
+# Opening and deadline as in the website's data/semesterplan.yaml.
+exercises:
+  - number: 1
+    opens: 2026-10-12T18:00
+    deadline: 2026-10-26T23:59
+    problems:
+      - !include me/.inf.yml
+
+  - number: 2
+    opens: 2026-10-19T18:00
+    deadline: 2026-11-02T23:59
+    problems:
+      - !include mario/.inf.yml
+      - !include cash/.inf.yml
+
+  - number: 3
+    opens: 2026-10-26T18:00
+    deadline: 2026-11-09T23:59
+    problems:
+      - !include scrabble/.inf.yml
+      - !include readability/.inf.yml
+
+  - number: 4
+    opens: 2026-11-02T18:00
+    deadline: 2026-11-16T23:59
+    problems:
+      - !include caesar/.inf.yml
+
+  - number: 5
+    opens: 2026-11-09T18:00
+    deadline: 2026-11-23T23:59
+    problems:
+      - !include sort/.inf.yml
+      - !include plurality/.inf.yml
+      - !include runoff/.inf.yml
+
+  - number: 6
+    opens: 2026-11-16T18:00
+    deadline: 2026-11-30T23:59
+    problems:
+      - !include filter/.inf.yml
+
+  - number: 7
+    opens: 2026-11-23T18:00
+    deadline: 2026-12-06T23:59
+    problems:
+      - !include volume/.inf.yml
+      - !include recover/.inf.yml
+
+  - number: 8
+    opens: 2026-11-30T18:00
+    deadline: 2026-12-14T23:59
+    problems:
+      - !include inheritance/.inf.yml
+
+  - number: 9
+    opens: 2026-12-07T18:00
+    deadline: 2026-12-21T23:59
+    problems:
+      - !include doublylinkedlist/.inf.yml
+      - !include stack/.inf.yml
+
+  - number: 10
+    opens: 2026-12-14T18:00
+    deadline: 2027-01-18T23:59
+    problems:
+      - !include readability/sentimental/.inf.yml
+      - !include outdated/.inf.yml
+      - !include jar/.inf.yml
+
+  - number: 11
+    opens: 2026-12-21T18:00
+    deadline: 2027-01-25T23:59
+    problems:
+      - !include mastodon/load/.inf.yml
+      - !include mastodon/filter/.inf.yml
+
+  - number: 12
+    opens: 2027-01-18T18:00
+    deadline: 2027-02-01T23:59
+    # Homepage and Trivia have no meaningful check: any upload by the deadline counts.
+    counting: upload_only
+    problems:
+      - !include trivia/.inf.yml
+      - !include homepage/.inf.yml
+
+  - number: 13
+    opens: 2027-01-25T18:00
+    deadline: 2027-02-07T23:59
+    problems:
+      - !include helloflask/.inf.yml
+      - !include birthdays/.inf.yml
+      - !include finance/.inf.yml
+
+# The Stadt-Land-Fluss checks of Übung 5 and 8: voluntary, checked, never counted.
+extras:
+  - !include stadtlandfluss/sum/.inf.yml
+  - !include stadtlandfluss/random/.inf.yml
+
+messages:
+  - Midterm am 7. Dezember.

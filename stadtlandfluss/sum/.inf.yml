@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://upload.inf.zone/schema/extra.json
+
+title: Stadt, Land, Fluss
+slug: !check50
+files: !check50

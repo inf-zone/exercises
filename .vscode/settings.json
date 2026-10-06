@@ -1,0 +1,8 @@
+{
+  "yaml.customTags": [
+    "!include scalar",
+    "!check50 scalar",
+    "!require scalar",
+    "!exclude scalar"
+  ]
+}

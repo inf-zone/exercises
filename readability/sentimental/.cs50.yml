@@ -1,0 +1,5 @@
+# CS50's sentimental/readability, the Python version of readability.
+check50:
+  files:
+    - !exclude "*"
+    - !require readability.py

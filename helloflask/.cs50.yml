@@ -1,0 +1,7 @@
+check50:
+  files:
+    - !exclude "*"
+    - !require app.py
+    - !require templates/layout.html
+    - !require templates/index.html
+    - !require templates/color.html
