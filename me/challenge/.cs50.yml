@@ -1,0 +1,5 @@
+# The challenge of me: the same file, its own checks.
+check50:
+  files:
+    - !exclude "*"
+    - !require hello.c

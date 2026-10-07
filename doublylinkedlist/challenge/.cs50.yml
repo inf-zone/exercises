@@ -1,0 +1,5 @@
+# The challenge of doublylinkedlist: the same file, its own checks.
+check50:
+  files:
+    - !exclude "*"
+    - !require doublylinkedlist.c

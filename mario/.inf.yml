@@ -4,3 +4,7 @@ title: Mario
 bonus_checks: [test1]
 slug: !check50
 files: !check50
+challenge:
+  text: "Gib die unterste Zeile der Pyramide mit Punkten statt Rauten aus. Bei Höhe 3 also „  #“, „ ##“ und „...“."
+  checks: !check50 challenge
+  files: !check50 challenge

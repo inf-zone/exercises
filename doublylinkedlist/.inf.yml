@@ -4,3 +4,7 @@ title: Doubly Linked List
 bonus_checks: [insert_forward]
 slug: !check50
 files: !check50
+challenge:
+  text: "Füge neue Zahlen nicht mehr am Ende ein, sondern an der richtigen Stelle, sodass die Liste immer aufsteigend sortiert ist. Gleiche Zahlen stehen nebeneinander."
+  checks: !check50 challenge
+  files: !check50 challenge

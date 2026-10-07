@@ -1,0 +1,5 @@
+# The challenge of caesar: the same file, its own checks.
+check50:
+  files:
+    - !exclude "*"
+    - !require caesar.c

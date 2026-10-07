@@ -4,3 +4,7 @@ title: Lesbarkeit (Python)
 bonus_checks: [single_sentence]
 slug: !check50
 files: !check50
+challenge:
+  text: "Gib vor der Stufe aus, was dein Programm gezählt hat, je in einer Zeile: „Letters: 96“, „Words: 23“, „Sentences: 1“."
+  checks: !check50 challenge
+  files: !check50 challenge

@@ -4,3 +4,7 @@ title: Filter
 bonus_checks: [grayscale_single_pixel]
 slug: !check50
 files: !check50
+challenge:
+  text: "Ändere reflect so, dass das Bild vertikal gespiegelt wird: Die oberste Zeile wird zur untersten, die Reihenfolge der Pixel innerhalb einer Zeile bleibt gleich."
+  checks: !check50 challenge
+  files: !check50 challenge

@@ -4,3 +4,7 @@ title: Lautstärke
 bonus_checks: [audio_half]
 slug: !check50
 files: !check50
+challenge:
+  text: "Verhindere den Überlauf: Ein Sample, das nach dem Multiplizieren größer als 32767 wäre, wird 32767, eines kleiner als -32768 wird -32768."
+  checks: !check50 challenge
+  files: !check50 challenge

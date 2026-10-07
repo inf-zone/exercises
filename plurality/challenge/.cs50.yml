@@ -1,0 +1,5 @@
+# The challenge of plurality: the same file, its own checks.
+check50:
+  files:
+    - !exclude "*"
+    - !require plurality.c

@@ -4,3 +4,7 @@ title: Cäsar
 bonus_checks: [encrypts_a_as_b]
 slug: !check50
 files: !check50
+challenge:
+  text: "Erlaube auch negative Schlüssel: ./caesar -1 verschiebt jeden Buchstaben um eins zurück, aus „b“ wird „a“ und aus „a“ wird „z“. Ein Schlüssel wie „-“ oder „-2x“ bleibt ungültig."
+  checks: !check50 challenge
+  files: !check50 challenge

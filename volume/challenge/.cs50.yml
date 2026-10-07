@@ -1,0 +1,5 @@
+# The challenge of volume: the same file, its own checks.
+check50:
+  files:
+    - !exclude "*"
+    - !require volume.c

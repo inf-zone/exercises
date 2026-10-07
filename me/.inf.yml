@@ -4,3 +4,7 @@ title: Hello, It’s Me
 bonus_checks: [mario]
 slug: !check50
 files: !check50
+challenge:
+  text: "Frag nach dem Vornamen zusätzlich nach dem Nachnamen und begrüße mit dem vollen Namen, etwa „hello, Ada Lovelace“."
+  checks: !check50 challenge
+  files: !check50 challenge

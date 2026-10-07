@@ -4,3 +4,7 @@ title: Scrabble
 bonus_checks: [test4]
 slug: !check50
 files: !check50
+challenge:
+  text: "Großbuchstaben zählen jetzt doppelt so viel wie Kleinbuchstaben: „Z“ bringt 20 Punkte, „z“ weiterhin 10. Ändere compute_score entsprechend."
+  checks: !check50 challenge
+  files: !check50 challenge

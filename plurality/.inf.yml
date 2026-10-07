@@ -4,3 +4,7 @@ title: Mehrheitswahl
 bonus_checks: [print_winner0]
 slug: !check50
 files: !check50
+challenge:
+  text: "Bei Gleichstand gibt print_winner statt der Namen nur „Tie!“ aus. Gibt es genau einen Sieger, bleibt alles wie bisher."
+  checks: !check50 challenge
+  files: !check50 challenge

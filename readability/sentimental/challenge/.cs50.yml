@@ -1,0 +1,5 @@
+# The challenge of readability/sentimental: the same file, its own checks.
+check50:
+  files:
+    - !exclude "*"
+    - !require readability.py
