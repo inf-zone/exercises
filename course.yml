@@ -3,57 +3,26 @@
 semester: WS 2026/27
 timezone: Europe/Berlin
 
-tracks:
-  - key: 9ects
-    label: 9 ECTS
-    mug_exercises_required: 5
-    exercises:
-      - number: 0
-        mug: true
-      - number: 1
-        mug: true
-      - number: 2
-        mug: true
-      - number: 3
-        mug: true
-      - number: 4
-        mug: true
-      - number: 5
-        mug: true
-      - number: 6
-        mug: true
-      - number: 7
-        mug: true
-      - number: 8
-        mug: true
-      - 9
-      - 10
-      - 11
-      - 12
+parts:
+  - key: c
+    label: C-Übungen
+    jokers: 3
+    exercises: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+  - key: python-web
+    label: Übungen zu Python und Web
+    jokers: 1
+    exercises: [9, 10, 11, 12]
+
+exams:
   - key: 6ects
     label: 6 ECTS
-    mug_exercises_required: 5
-    exercises:
-      - number: 0
-        mug: true
-      - number: 1
-        mug: true
-      - number: 2
-        mug: true
-      - number: 3
-        mug: true
-      - number: 4
-        mug: true
-      - number: 5
-        mug: true
-      - number: 6
-        mug: true
-      - number: 7
-        mug: true
-      - number: 8
-        mug: true
+    parts: [c]
+    mug_count: !all
+  - key: 9ects
+    label: 9 ECTS
+    parts: [c, python-web]
+    mug_count: !all
 
-# Opening and deadline as in the website's data/semesterplan.yaml.
 exercises:
   - number: 0
     opens: 2026-10-12T18:00
@@ -105,12 +74,14 @@ exercises:
   - number: 7
     opens: 2026-11-30T18:00
     deadline: 2026-12-14T23:59
+    hidden: true
     problems:
       - !include inheritance/.inf.yml
 
   - number: 8
     opens: 2026-12-07T18:00
     deadline: 2026-12-21T23:59
+    hidden: true
     problems:
       - !include doublylinkedlist/.inf.yml
       - !include stack/.inf.yml
@@ -118,6 +89,7 @@ exercises:
   - number: 9
     opens: 2026-12-14T18:00
     deadline: 2027-01-18T23:59
+    hidden: true
     problems:
       - !include readability/sentimental/.inf.yml
       - !include outdated/.inf.yml
@@ -126,6 +98,7 @@ exercises:
   - number: 10
     opens: 2026-12-21T18:00
     deadline: 2027-01-25T23:59
+    hidden: true
     problems:
       - !include mastodon/load/.inf.yml
       - !include mastodon/filter/.inf.yml
@@ -133,7 +106,7 @@ exercises:
   - number: 11
     opens: 2027-01-18T18:00
     deadline: 2027-02-01T23:59
-    # Homepage and Trivia have no meaningful check: any upload by the deadline counts.
+    hidden: true
     counting: upload_only
     problems:
       - !include trivia/.inf.yml
@@ -142,6 +115,7 @@ exercises:
   - number: 12
     opens: 2027-01-25T18:00
     deadline: 2027-02-07T23:59
+    hidden: true
     problems:
       - !include helloflask/.inf.yml
       - !include birthdays/.inf.yml

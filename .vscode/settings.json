@@ -2,6 +2,7 @@
   "yaml.customTags": [
     "!include scalar",
     "!check50 scalar",
+    "!all scalar",
     "!require scalar",
     "!exclude scalar"
   ]
