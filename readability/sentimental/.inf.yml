@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://upload.inf.zone/schema/problem.json
 
 title: Lesbarkeit (Python)
-bonus_checks: [single_sentence]
+star_checks: [single_sentence]
 slug: !check50
 files: !check50
 challenge:

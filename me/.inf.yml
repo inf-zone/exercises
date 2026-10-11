@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://upload.inf.zone/schema/problem.json
 
 title: Hello, It’s Me
-bonus_checks: [mario]
+star_checks: [mario]
 slug: !check50
 files: !check50
 challenge:
