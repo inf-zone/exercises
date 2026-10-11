@@ -4,3 +4,6 @@ title: Wiederherstellung
 bonus_checks: []
 slug: !check50
 files: !check50
+
+resources:
+  disk_mb: 256

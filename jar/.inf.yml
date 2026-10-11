@@ -4,3 +4,6 @@ title: Keksdose
 bonus_checks: []
 slug: !check50
 files: !check50
+
+resources:
+  cpus: 2
