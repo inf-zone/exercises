@@ -47,7 +47,7 @@ def sentence_punctuation():
     check50.run("./readability").stdin("Congratulations! Today is your day. You're off to Great Places! You're off and away!").stdout("Grade 3\n").stdout(check50.EOF).exit(0)
 
 @check50.check(compiles)
-def sentence_punctuation():
+def questions():
     """handles questions in passage"""
     check50.run("./readability").stdin("Would you like them here or there? I would not like them here or there. I would not like them anywhere.").stdout("Grade 2\n").stdout(check50.EOF).exit(0)
 
