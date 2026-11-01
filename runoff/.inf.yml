@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://upload.inf.zone/schema/problem.json
 
 title: Integrierte Stichwahl
-star_checks: []
+star_checks: [print_winner1]
 slug: !check50
 files: !check50

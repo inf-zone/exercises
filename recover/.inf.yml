@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://upload.inf.zone/schema/problem.json
 
 title: Wiederherstellung
-star_checks: []
+star_checks: [first_image]
 slug: !check50
 files: !check50
 

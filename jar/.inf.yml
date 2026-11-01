@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://upload.inf.zone/schema/problem.json
 
 title: Keksdose
-star_checks: []
+star_checks: [test_full_str]
 slug: !check50
 files: !check50
 
