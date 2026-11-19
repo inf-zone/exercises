@@ -13,7 +13,8 @@ def exists():
 @check50.check(exists)
 def compiles():
     """caesar.c compiles."""
-    check50.c.compile("caesar.c", lcs50=True)
+    # signed char as on the x86 server: rotating inside a char overflows past 127 there
+    check50.c.compile("caesar.c", lcs50=True, fsigned_char=True)
 
 
 @check50.check(compiles)

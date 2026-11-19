@@ -63,7 +63,8 @@ def exists():
 @check50.check(exists)
 def compiles():
     """recover.c compiles."""
-    check50.c.compile("recover.c", lcs50=True)
+    # signed char as on the x86 server: a char buffer never equals 0xff there
+    check50.c.compile("recover.c", lcs50=True, fsigned_char=True)
 
 @check50.check(compiles)
 def test_noimage():
